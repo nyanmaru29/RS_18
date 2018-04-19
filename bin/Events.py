@@ -62,3 +62,24 @@ class HireChefEvent:
 class HireWaiterEvent:
     def __init__(self):
         self.name = "Hire Waiter Event"
+
+class LeftClickEvent:
+    def __init__(self, pos):
+        self.name = "Left Click Event"
+        self.pos = pos
+
+class GUIFocusThisWidgetEvent:
+    def __init__(self):
+        self.name = "GUIFocusThisWidgetEvent"
+
+class GUIClickEvent:
+    def __init__(self):
+        self.name = "GUIClickEvent"
+
+class GUIMouseMoveEvent:
+    def __init__(self):
+        self.name = "GUIMouseMoveEvent"
+
+class GUIPressEvent:
+    def __init__(self):
+        self.name =  "GUIPressEvent"
